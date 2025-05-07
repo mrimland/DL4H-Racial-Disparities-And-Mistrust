@@ -5,7 +5,11 @@ The following python notebooks are meant to be run within Google Colab to reprod
 ## Data requirements
 You should first attain credentials, the required training, and access to [MIMIC-III](https://physionet.org/content/mimiciii/1.4/) and to [MIMIC-IV](https://physionet.org/content/mimiciv/3.1/) This code was run on MIMIC-III version 1.4 and MIMIC-IV version 3.1
 
-The notebooks expect the tables to be loaded into BigQuery. You should also replace any instance of project_id with your own project id for your Google Colab project
+Note: These notebooks contain functionality that is specific to Google Colab. This functionality includes:
+- References to data being drawn from Google BigQuery
+- Authentication to run BigQuery
+- Drive mounting to save dataframes and model checkpoints
+Running this code outside of Google Colab may require modifications.
 
 If you plan to run DisparityInMimic.ipynb, a few notes
 1. Some columns/names are different between MIMIC-III and MIMIC-IV. Some columns to check are ethnicity:race, ventdurations:vent_durations, intime:icu_intime, outtime:icu_outtime, icu_stayid:stay_id, vasopressordurations:vasopressor_durations
@@ -13,4 +17,5 @@ If you plan to run DisparityInMimic.ipynb, a few notes
    
 
 ## Running
+You should be able to run Notebooks within Google Colab. Pre-trained models are also included under the Models-and-Labels and the data folders to reproduce results.
 
