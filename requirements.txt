@@ -1,0 +1,14 @@
+git+https://github.com/clips/pattern
+pandas
+psycopg2
+scikit-learn
+tqdm
+pandas-gbq
+matplotlib
+scipy
+ipython
+openai
+joblib
+google.colab
+google.cloud.bigquery
+openai
