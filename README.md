@@ -17,5 +17,5 @@ If you plan to run DisparityInMimic.ipynb, a few notes
    
 
 ## Running
-You should be able to run Notebooks within Google Colab. Pre-trained models are also included under the Models-and-Labels and the data folders to reproduce results.
+You should be able to run Notebooks within Google Colab. Pre-trained models are also included under the Models-and-Labels and the data folders to reproduce results. See requirements.txt for required packages/imports.
 
